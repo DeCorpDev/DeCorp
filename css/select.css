@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    color: aliceblue;
+    background-color: rgb(20, 26, 22);
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+}
+
+.h2s {
+    transition: color 0.35s ease-in-out;
+}
+
+.h2l {
+    transition: color 0.35s ease-in-out;
+}
+
+.h2s:hover {
+    color: aqua;
+}
+
+.h2l:hover {
+    color: aqua;
+}
+
+.h2sl {
+    font-size: 8rem;
+    margin-top: 4.2rem;
+}
+
+.selection {
+    display: grid;
+    grid-auto-flow: column;
+
+    font-size: 4rem;
+}
+
+.selection a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.btt1s {
+    float: left;
+    height: 5rem;
+    width: 9rem;
+    border: 3.5px solid tomato;
+    border-radius: 30px;
+    background-color: black;
+    color: tomato;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    font-size: 2rem;
+    transition: color 0.35s ease-in-out;
+    transition: border 0.35s ease-in-out;
+}
+
+.btt1s:hover {
+    border: 3.5px solid black;
+    color: black;
+    background-color: tomato;
+    cursor: pointer;
+}

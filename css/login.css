@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    color: aliceblue;
+    background-color: rgb(20, 26, 22);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.form {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 2.5rem;
+
+}
+
+.inp {
+    height: 3rem;
+    width: 24rem;
+    border: 3.5px solid tomato;
+    border-radius: 1.5rem;
+    background-color: rgb(40, 36, 42);
+    color: bisque;
+    margin-left: 37%;    
+}
+
+label {
+    margin-left: 44%;
+}
+
+.inp::placeholder {
+    color: bisque;
+}
+
+.id {
+    margin-top: -32px;
+    width: 12rem;
+    margin-left: 42.5%;
+}
+
+.btt1a {
+    width: 11rem;
+    height: 5rem;
+    margin-left: 42.8%;
+    border: 7px solid tomato;
+    border-radius: 4rem;
+    background-color: rgb(29, 39, 43);
+    color: azure;
+    font-size: 2rem;
+    transition: color 0.35s ease-in-out;
+}
+
+.btt1a:hover {
+    color: black;
+    background-color: tomato;
+}
+
+.h1t {
+    margin-left: 41%;
+}
+
+.btt1s {
+    float: left;
+    height: 5rem;
+    width: 9rem;
+    border: 3.5px solid tomato;
+    border-radius: 30px;
+    background-color: black;
+    color: tomato;
+    margin-right: 5rem;
+    font-size: 2rem;
+    transition: color 0.35s ease-in-out;
+    transition: border 0.35s ease-in-out;
+}
+
+.btt1s:hover {
+    border: 3.5px solid black;
+    color: black;
+    background-color: tomato;
+    cursor: pointer;
+}

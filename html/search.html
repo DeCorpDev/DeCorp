@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeShop</title>
+    <link rel="stylesheet" href="/DeShop/css/search.css">
+    <script>
+            const searchButton = document.getElementById('search-button');
+    const searchInput = document.getElementById('search-input');
+
+    searchButton.addEventListener('click', function() {
+        const query = searchInput.value;
+        // Process the search query (e.g., display results or perform an action)
+        console.log('User searched for:', query);
+    });
+
+    function addToHistory(query) {
+        const historyList = document.getElementById('history-list');
+        const listItem = document.createElement('li');
+        listItem.textContent = query;
+        historyList.appendChild(listItem);
+    }
+
+    // Example usage:
+    addToHistory('Apples');
+    addToHistory('Bananas');
+
+
+    </script>
+    <link rel="stylesheet" href="/DeShop/css/dark.css">
+    <link rel="stylesheet" href="/DeShop/css/light.css">
+</head>
+<body>
+    <div class="search">
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+    </div>
+    <div class="history-box">
+        <h3>Search History</h3>
+        <ul id="history-list">
+
+        </ul>
+    </div>
+    </div>
+    <a href="/DeShop/html/index.html"><button class="btt1s">Back</button></a>
+</body>
+</html>
